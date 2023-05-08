@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELanod</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/elanod.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon1.jpg">
+</head>
+<body>
+    <div class="log">
+        <div class="loading">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="" width="120px" height="60px">
+            </a>
+            <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#main" 
+                aria-controls="main" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#landing">الصفحة الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#about">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#products">منتجات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#mostUsed">الأكثر استخداما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#contact">تواصل معنا</a>
+                    </li>
+                </ul>
+                <div class="dropdown-center">
+                    <button class="btn btn-secondary dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="lang">
+                        ع
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" id="btnAr">العربية</a></li>
+                        <li><a class="dropdown-item" href="#" id="btnEn">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- start navbar -->
+    <!-- start landing  -->
+    <div class="landing d-flex justify-content-around align-items-center landingg" id="landing">
+        <div class="shape d-none d-lg-inline-block ">
+            <img src="images/home2D.jpg" alt="">
+        </div>
+        <div class="text text-center text-light" id="home">
+            <h1 class="mb-0 mt-0 fw-bold ">الشركة الأفضل فى مجال مكافحة الآفات والحشرات</h1>
+            <p class="fs-3 mt-2 mb-5">نفعل هذا بكل سهولة واحترافية</p>
+            <a class="btn rounded-pill main-btn" href="#">اتصل الآن | <span>0201062222802</span></a>
+        </div>
+    </div>
+    <!-- end landing  -->
+    <!-- start about -->
+    <div class="about text-center pt-5 pb-5" id="about">
+        <div class="container">
+            <div class="main-title mt-5 mb-5  position-relative" >
+                <h2 class="fs-1 fw-bold">من نحن...؟</h2>
+                <p class="fs-5 mt-3">العنود كنترول</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="text">
+                        <i class="fa-solid fa-pencil"></i>
+                        <h3 class="mt-3 mb-3 fw-bold">نبذه عن الشركة</h3>
+                        <p class="text-black-50 lh-lg">شركة العنود  هي شركة تختص بتوفير خدمات متخصصة للتحكم في الآفات والحشرات في المنازل والفنادق والمباني التجارية والصناعية . وتهدف  إلى الحفاظ على الصحة العامة والحماية من الأضرار التي يمكن أن تسببها الآفات والحشرات للأفراد والممتلكات
+                            وتقدم شركة العنود مجموعة متنوعة من الخدمات التي تشمل إزالة الحشرات الضارة مثل الصراصير والنمل والفئران والبعوض والبق والقضاء عليها باستخدام المبيدات الحشرية والطرق الحديثة الأخرى. وتستخدم  الشركة أيضاً تقنيات مبتكرة وفعالة لمنع عودة الحشرات وتطبيق إجراءات الوقاية والتحكم في الآفات في المنطقة المعنية.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" ">
+                    <div class="text" >
+                        <i class="fa-solid fa-people-group"></i>
+                        <h3 class="mt-3 mb-3 fw-bold">فريق العمل</h3>
+                        <p class="text-black-50 lh-lg">
+                            لدى شركة العنود فريق متخصص من المهندسين والاستشاريين والعاملين الذين يتمتعون بالخبرة والمهارة في تقديم الخدمات المختلفة والحفاظ على سلامة العملاء والموظفين والبيئة. ويتمثل دورهم في تحديد وتقييم المشكلات المتعلقة بالحشرات وتحديد الحلول الفعالة والآمنة لإزالتها والوقاية من عودتها.
+                            وتشمل خدمات الشركة ايضا تقديم الاستشارات المجانية والتقييم الأولي للمشكلة وتوفير خطط مخصصة لكل حالة تتناسب مع احتياجات العملاء وتوفير خدمات ما بعد البيع والدعم الفني لضمان رضا العملاء ونجاح الحلول المتبعة    
+                            تقديم النصائح والإرشادات لتجنب ومنع تكاثر الحشرات والآفات في المستقبل.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" ">
+                    <div class="text" >
+                        <i class="fa-solid fa-ranking-star"></i>
+                        <h3 class="mt-3 mb-3 fw-bold">يميز الشركة</h3>
+                        <p class="text-black-50 lh-lg">
+                            تحرص شركة العنود على استخدام المنتجات الآمنة والصديقة للبيئة والتي لا تؤثر سلباً على صحة الإنسان أو الحيوانات الأليفة. وتضمن الشركة الامتثال للمعايير الصحية والبيئية المتعلقة بتخزين وتطبيق المبيدات الحشرية.
+                            وتتميز الشركة بتوفير خدماتها بأسعار معقولة وتنافسية وفي بعض الأحيان توفر خطط مدفوعة بالاشتراك للعملاء الذين يحتاجون إلى خدمات مستمرة للتحكم في الحشرات.      
+                            ايضا استخدام أحدث الطرق للقضاء على الآفات والحشرات
+                            وفي النهاية، تتمثل أهمية الشركة في الحفاظ على صحة الإنسان والبيئة والممتلكات، وتحسين جودة الحياة في المجتمعات التي تخدمها الشركة.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start products  -->
+    <div class="products pt-5 pb-5 text-center" id="products">
+        <div class="container">
+            <div class=" main-title mt-5 mb-5  position-relative">
+                <h2 class="fs-1 fw-bold">منتجاتنا</h2>
+                <p class="fs-5 mt-3">الافضل محليا وعالميا</p>
+                
+            </div>
+            <div class="d-flex justify-content-center align-items-center info">
+                    <img src="images/producthome.jpg" alt="">
+            </div>
+            <div class="row gallery">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div  class="box mb-3 " data-product="للحديقة، لحماية النباتات من الأمراض.">
+                        <img class="img-fluid" src="images/product10.jpg" alt="">
+                        <p>Sulfur powder </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3 " data-product="مبيد حشري يعمل بالملامسة و هو عبارة عن سم معدي يستخدم لمكافحة مجموعة واسعة من الحشرات بمعدل 100 سم 3 / 100 لتر ماء.">
+                        <img class="img-fluid" src="images/product1.jpg" alt="">
+                        <p>ديزو هاي 60 % EC</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="مبيد حشري جهازي فعال فى القضاء علي الحشرات الضارة بالزراعة يستخدم بمعدل 25 جرام / 100 لتر ماء.">
+                        <img class="img-fluid" src="images/product2.jpg" alt="">
+                        <p>أسيتاإكس 20 % SP</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="مبيد حشري مركز سريع التأثير يستخدم فى مكافحة مجموعة واسعة من الآفات الحشرية بمعدل 100 سم / 10 لتر ماء.">
+                        <img class="img-fluid" src="images/product3.jpg" alt="">
+                        <p>كلو هاي 48 % EC</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="مستحضر فى صورة مسحوق قابل للذوبان وهو مبيد حشري جهازي يعمل علي القضاء علي كافة الحشرات الزراعية.">
+                        <img class="img-fluid" src="images/product4.jpg" alt="">
+                        <p>داي آب 90 % SP</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="مركب سريع المفعول يقضي علي الحشرات الثاقبة  ومجهز فى صورة حبيبات قابلة للإنتشار فى الماء بمعدل 20 جرام / 100 لتر ماء.">
+                        <img class="img-fluid" src="images/product5.jpg" alt="">
+                        <p>دودي 25 % WG</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="مبيد حشري لمكافحة معظم الآفات والحشرات.">
+                        <img class="img-fluid" src="images/product6.jpg" alt="">
+                        <p>إيفوكت 5.7 % WG</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="مبيد عشبي بتركيبة تركيزية لإعداد مستحلب مائي، يتم استخدامه على التربة والأوراق، ويهدف إلى التحكم الانتقائي في بعض النباتات الأحادية الفلقية السنوية.
+                    ">
+                        <img class="img-fluid" src="images/product13.jpg" alt="">
+                        <p>بوكسر 800 EC 5L </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products most-used pt-5 pb-5 text-center " id="mostUsed">
+        <div class="container">
+            <div class=" main-title mt-5 mb-5  position-relative">
+                <h2 class="fs-1 fw-bold">منتجاتنا</h2>
+                <p class="fs-5 mt-3">الأكثر استخداما</p>
+                
+            </div>
+            <div class="d-flex justify-content-center align-items-center info">
+                    <img src="images/most-used.jpg" alt="">
+            </div>
+            <div class="row gallery" >
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="يسمح بمحاربة العفن الرمادي، مرض البقعة السوداء والصدأ.">
+                        <img class="img-fluid" src="images/product9.jpg" alt="">
+                        <p>Solabiol - Sulfur Spray</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="سهل الاستخدام ويتكيف مع أي محصول، انتشر المادة الفعالة غليفوسات بسرعة في جميع قارات العالم لتصبح أكثر المبيدات الحشائش استخدامًا في الوقت الحاضر.">
+                        <img class="img-fluid" src="images/product11.jpg" alt="">
+                        <p>Glyphosate Roundup</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="منتج مبني على عوامل مضادة للفطريات قوية. بمجرد رشه أو تطبيقه على الرواسب الخضراء أو العفن، لا يترك أي آثار أو طبقة على المواد ولا يغير مظهرها أو لونها.">
+                        <img class="img-fluid" src="images/product12.jpg" alt="">
+                        <p>TRAITEMENT FONGICIDE</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="يتم استخدام البخاخ الآلي لجميع الحشرات على نحو محدد، داخل المباني، لتأثيره العلاجي وعمله الفوري. يتيح هذا البخاخ في حركة واحدة علاجًا صدميًا في الأماكن المصابة بالحشرات (20 إلى 40 متر مربع، أو 50 إلى 100 متر مكعب في قطعة واحدة). ويدمر كل من الحشرات الزاحفة والطائرة.">
+                        <img class="img-fluid" src="images/product19.jpg" alt="">
+                        <p>Kapo crawling aerosol</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="منتج للقضاء على الحشرات الزاحفة في المنزل. سهل الاستخدام ويوفر حماية فورية ضد النمل والعناكب والصراصير وغيرها من الحشرات الزاحفة. يتوفر بحجم 400 مل وهو مصمم لتوفير حماية دائمة ضد الحشرات.">
+                        <img class="img-fluid" src="images/product14.jpg" alt="">
+                        <p>Raid Crawling Insect Spray </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="مبيد حشري قوي جداً. يعطي المادة الفعالة إيميبروثرين تأثير صدمة استثنائي على الحشرات (تسقط الحشرات في غضون ثوانٍ معدودة)، ويسمح سايبرميثرين بحماية الأسطح المعالجة لعدة أسابيع.">
+                        <img class="img-fluid" src="images/product15.jpg" alt="">
+                        <p>Insectan insect dam</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="مبيد حشرى للمعالجة السطحية محلول مبيد حشري جاهز للاستخدام لمعالجة الأسطح ضد الحشرات الطائرة مثل الذباب والبعوض والعث وايضا الحشرات الزاحفة مثل النمل والصراصير والبراغيث .">
+                        <img class="img-fluid" src="images/product16.jpg" alt="">
+                        <p>Anti-ant Insectan barrage 1L</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="يصد فورًا جميع أنواع القوارض (الجرذان والسناجب والفئران والنواقل وما إلى ذلك) ويمنع تدهور الأجزاء المصنوعة من المطاط والبلاستيك (التنجيد والكابلات والخراطيم والمغمد وما إلى ذلك...) ولا يفتح الألوان على المطاط.">
+                        <img class="img-fluid" src="images/product17.jpg" alt="">
+                        <p>Bardahl 4492 REPELLENT ROOTS </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product="البخاخ الذي يعمل بفعالية ضد البعوض والبعوض النمر والذباب بفضل تركيبته الحصرية، ويحميك من البعوض المحتملة التي تحمل فيروسات الشيكونغونيا والدينغي وزيكا. تأثيره طويل الأمد يمنع عودة الحشرات في الغرف المعالجة وبالتالي يحمي منزلك لفترة طويلة.">
+                        <img class="img-fluid" src="images/product18.jpg" alt="">
+                        <p>CATCH EXPERT Mosquitoes</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" data-product=" أحد المنتجات المسموح بها في الزراعة العضوية. وهي فعالة بشكل خاص ضد الحشرات مثل القطنيات.">
+                        <img class="img-fluid" src="images/product20.jpg" alt="">
+                        <p>Vaseline oil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end products  -->
+    <!-- start section -->
+    <div class="section">
+        <div class="container d-flex" id="sections">
+            <div class="text">
+                تسعى شركة العنود إلى تطوير منتجات آمنة وفعالة لاستخدامها في مختلف المجالات، مثل الزراعة والحدائق والمنازل والمستودعات والمصانع والفنادق. كما تقوم بتقديم الخدمات المتعلقة بتحليل البيئة وتقييم المخاطر والتدريب والإشراف والصيانة.
+                ومن المهم التأكد من اتباع التعليمات اللازمة لاستخدام منتجات مبيدات الحشرات بشكل صحيح وآمن، حيث يمكن أن يكون استخدامها بطريقة خاطئة مضرًا بالنباتات والحيوانات والإنسان، بما في ذلك الأشخاص المعرضون للحساسية والأطفال والحيوانات الأليفة
+            </div>
+            <div class="count m-auto d-flex ">
+                <div class="Hotel d-flex flex-column ">
+                    <h4>147</h4>
+                    <p>#اوتيل</p>
+                </div>
+                <div class="clients d-flex flex-column">
+                    <h4>342</h4>
+                    <p>#عميل</p>
+                </div>
+                <div class="gardens d-flex flex-column">
+                    <h4>100</h4>
+                    <p>#حديقة</p>
+                </div>
+                <div class="houses d-flex flex-column">
+                    <h4>129</h4>
+                    <p>#منزل</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section  -->
+    <!-- start tools  -->
+    <div class="products pt-5 pb-5 text-center " id="most">
+        <div class="container ">
+            <div class=" main-title mt-5 mb-5  position-relative">
+                <h2 class="fs-1 fw-bold">بعض الأجهزة</h2>
+                <!-- <p class="fs-5 mt-3">الأفضل والأحدث</p> -->
+            </div>
+            <div class="row gallery">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" >
+                        <img class="img-fluid" src="images/tool1.jpg" alt="">
+                        <p>Flea and Bedbug Control Pack with 5 Litre Sprayer </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" >
+                        <img class="img-fluid" src="images/tool2.jpg" alt="">
+                        <p>Wasp Powder Professional Insecticide  </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3">
+                        <img class="img-fluid" src="images/tool3.jpg" alt="">
+                        <p>PestXpert Pro-Spray Indoor and Outdoor </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3">
+                        <img class="img-fluid" src="images/tool4.jpg" alt="">
+                        <p>Ultrasonic Pest Repellent Plug in</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" >
+                        <img class="img-fluid" src="images/tool5.jpg" alt="">
+                        <p>Pest Reject Pro 1+1 - Repulse insect</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3">
+                        <img class="img-fluid" src="images/tool6.jpg" alt="">
+                        <p>Spray Pumps (16 Liter)</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3">
+                        <img class="img-fluid" src="images/tool7.jpg" alt="">
+                        <p>Tank Sprayer</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" >
+                        <img class="img-fluid" src="images/product8.jpg" alt="">
+                        <p>Flycatcher</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" >
+                        <img class="img-fluid" src="images/tool8.jpg" alt="">
+                        <p>Pesticides with smoke</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" >
+                        <img class="img-fluid" src="images/tool9.jpg" alt="">
+                        <p>Spray disinfectants</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box mb-3" >
+                        <img class="img-fluid" src="images/tool10.jpg" alt="">
+                        <p>Pesticides with smoke</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end tools  -->
+    <!-- start footer  -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="image">
+                <img src="images/home2.jpeg" alt="">
+            </div>
+            <div class="adress">
+                <h4>مقر الشركة</h4>
+                <a href="#">الغردقة,الكوثر,شارع ميترو</a>
+                <a href="#">21rue des belles feuilles 75016 Paris France </a>
+            </div>
+            <div class="About">
+                <h4>من نحن..؟</h4>
+                <a href="#about">نبذه عن الشركة</a>
+                <a href="#products">منتجاتنا</a>
+            </div>
+            <div class="contact">
+                <h4> تواصل معنا</h4>
+                <a href="https://wa.me/+201062222802" target="blank"><i class="fa-brands fa-square-whatsapp"></i><i class="fa-solid fa-phone"></i>0201062222802</a>
+                <a href="https://wa.me/+33605228032" target="blank"><i class="fa-brands fa-square-whatsapp"></i><i class="fa-solid fa-phone" ></i>033605228032</a>
+                <a href="mailto:Elanod@Elanod.com"><i class="fa-solid fa-envelope"></i>Elanod@Elanod.com</a>
+                <!-- <a href="https://wa.me/+201062222802" target="blank"><i class="fa-brands fa-square-whatsapp"></i>WhatsApp</a> -->
+                <a href="https://www.facebook.com/ElanodCompany/" target="blank"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                <a href="https://www.instagram.com/elanodcompany/?fbclid=IwAR351NTDcLzEcNxgXO3otVVmYqeVlhYxo94WgKA1X_2A5_tTx-gvkmKB9OU" target="blank"><i class="fa-brands fa-square-instagram"></i></i>Instagram</a>
+                <a href="https://twitter.com/ElanodCompany" target="blank"><i class="fa-brands fa-twitter"></i></i>Twitter</a>
+            </div>
+        </div>
+        <div class="copy">
+            Copyright &copy; <span>2023 Elanod</span>
+        </div>
+    </div>
+    <!-- end footer  -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
